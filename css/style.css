@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #eeeff1;
+}
+
+nav {
+  padding-top: 30px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 42px;
+}
+.fa-instagram {
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.fa,
+.nav-link a {
+  color: #000;
+  text-decoration: none;
+}
+.fa:hover,
+.nav-link a:hover {
+  color: #34547a !important;
+  cursor: pointer;
+}
+
+.intro {
+  margin-top: 160px;
+  padding-bottom: 160px;
+}
+
+.intro__img {
+  width: 357px;
+  height: 224px;
+  background-image: url(../img/frame.png);
+}
+
+.intro__text {
+  max-width: 540px;
+}
+
+.git {
+  color: #727272;
+  font-size: 20px;
+}
+
+.intro h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 50px;
+}
+
+.intro__description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin: 60px 0;
+}
+
+.intro__button {
+  background-color: #34547a;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  width: 225px;
+  height: 65px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.about {
+  margin-top: 120px;
+  margin-bottom: 100px;
+  max-width: 540px;
+}
+
+.experience {
+  background: #34547a;
+  padding: 100px 0;
+}
+
+.experience__items {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience__logo {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/project.png);
+  margin-right: 20px;
+  background-repeat: no-repeat;
+}
+
+.experience__text {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 110px;
+}
+
+.bold {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+.skills__foto {
+  background-image: url(../img/ava1.jpg);
+  width: 550px;
+  height: 450px;
+  background-repeat: no-repeat;
+  position: center;
+  background-size: contain;
+  margin: 100px 0;
+}
+
+.text-left {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+.skills__text {
+  margin-bottom: 20px;
+}
+
+.skills__html--gray {
+  width: 445px;
+  height: 4px;
+  background-color: #c4c4c4;
+  position: absolute;
+}
+
+.skills__html--blue {
+  width: 420px;
+  height: 4px;
+  background-color: #34547a;
+  position: relative;
+}
+
+.skills__bootstrap--gray {
+  width: 445px;
+  height: 4px;
+  background-color: #c4c4c4;
+  position: absolute;
+}
+
+.skills__bootstrap--blue {
+  width: 300px;
+  height: 4px;
+  background-color: #34547a;
+  position: relative;
+}
+
+.skills__js--gray {
+  width: 445px;
+  height: 4px;
+  background-color: #c4c4c4;
+  position: absolute;
+}
+
+.skills__js--blue {
+  width: 150px;
+  height: 4px;
+  background-color: #34547a;
+  position: relative;
+}
+
+.skills__figma--gray {
+  width: 445px;
+  height: 4px;
+  background-color: #c4c4c4;
+  position: absolute;
+}
+
+.skills__figma--blue {
+  width: 360px;
+  height: 4px;
+  background-color: #34547a;
+  position: relative;
+}
+
+.galery {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.galery__item {
+  height: 350px;
+  width: 25%;
+  cursor: pointer;
+  overflow: hidden;
+  background: gray;
+}
+
+.galery__item div:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  opacity: 0.7;
+}
+
+.galery__item div {
+  height: 100%;
+  background-size: cover;
+}
+
+.one {
+  background: url(../img/Dr.Harness.PNG) no-repeat;
+}
+
+.two {
+  background: url(../img/LevelUp.PNG) no-repeat;
+}
+
+.three {
+  background: url(../img/Lumos22.PNG) no-repeat;
+}
+
+.four {
+  background: url(../img/Lagoona.PNG) no-repeat;
+}
+
+.five {
+  background: url(../img/MNTN.PNG) no-repeat;
+}
+
+.six {
+  background: url(../img/Hungry.PNG) no-repeat;
+}
+
+.seven {
+  background: url(../img/nice.PNG) no-repeat;
+}
+
+.eight {
+  background: url(../img/Palaroid.PNG) no-repeat;
+}
+
+.contact {
+  padding-top: 100px;
+  background-color: #eeeff1;
+  padding: 100px 0;
+}
+
+footer {
+  background-color: #34547a;
+  color: #fff;
+  padding: 50px 0;
+}
+
+footer .fa {
+  margin-right: 22px;
+  color: #fff;
+  transition: 0.2s;
+}
+
+footer .fa:hover {
+  color: #727272 !important;
+}
+
+.footer__name {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.footer__copyright {
+  font-size: 13px;
+  line-height: 21px;
+}
+
+@media (max-width: 1200px) {
+  .skills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills__foto {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro__img {
+    margin-bottom: 50px;
+  }
+
+  .intro__text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 820px) {
+  .experience__logo {
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+  }
+
+  .experience__text {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .galery__item {
+    height: 200px;
+  }
+}
+
+@media (max-width: 550px) {
+  .intro__img {
+    width: 200px;
+    height: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .experience__items {
+    flex-direction: column;
+    align-items: unset;
+  }
+  .experience__items--items {
+    margin-bottom: 20px;
+  }
+  .text-left {
+    text-align: unset !important;
+  }
+
+  .skills__foto {
+    width: 300px;
+    height: 320px;
+  }
+
+  .skills__html--gray,
+  .skills__bootstrap--gray,
+  .skills__js--gray,
+  .skills__figma--gray {
+    width: 280px;
+  }
+  .skills__html--blue {
+    width: 263px;
+  }
+  .skills__bootstrap--blue {
+    width: 180px;
+  }
+
+  .skills__js--blue {
+    width: 80px;
+  }
+
+  .skills__figma--blue {
+    width: 220px;
+  }
+}
+
+/*Я удивлён, что это кто-то смотрит*/

@@ -375,6 +375,10 @@ footer .fa:hover {
   .skills__figma--blue {
     width: 220px;
   }
+  
+  .galery__item {
+    height: 100px;
+  }
 }
 
 /*Я удивлён, что это кто-то смотрит*/
